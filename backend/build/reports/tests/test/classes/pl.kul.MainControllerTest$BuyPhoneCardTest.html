@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - BuyPhoneCardTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>BuyPhoneCardTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/pl.kul.html">pl.kul</a> &gt; MainControllerTest$BuyPhoneCardTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">5</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.270s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">should has status BadRequest while put to buy phone card with initial money amount not parsable to BigDecimal$backend()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">should has status BadRequest while put to buy phone card without buyer first name provided$backend()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">should has status BadRequest while put to buy phone card without buyer last name provided$backend()</td>
+<td class="success">0.209s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">should has status BadRequest while put to buy phone card without initial money amount provided$backend()</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">should has status OK while put to buy phone card with initial money amount and buyer first and last name provided$backend()</td>
+<td class="success">0.039s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>20:16:23.691 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+20:16:23.691 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+20:16:23.693 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [pl.kul.MainControllerTest$BuyPhoneCardTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+20:16:23.694 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [pl.kul.MainControllerTest$BuyPhoneCardTest], using SpringBootContextLoader
+20:16:23.695 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [pl.kul.MainControllerTest$BuyPhoneCardTest]: class path resource [pl/kul/MainControllerTest$BuyPhoneCardTest-context.xml] does not exist
+20:16:23.695 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [pl.kul.MainControllerTest$BuyPhoneCardTest]: class path resource [pl/kul/MainControllerTest$BuyPhoneCardTestContext.groovy] does not exist
+20:16:23.695 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [pl.kul.MainControllerTest$BuyPhoneCardTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+20:16:23.695 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [pl.kul.MainControllerTest$BuyPhoneCardTest]: BuyPhoneCardTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:16:23.698 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [pl.kul.MainControllerTest$BuyPhoneCardTest]
+20:16:23.699 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration pl.kul.Main for test class pl.kul.MainControllerTest$BuyPhoneCardTest
+20:16:23.701 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [pl.kul.MainControllerTest$BuyPhoneCardTest]: using defaults.
+20:16:23.701 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+20:16:23.702 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4c9e9fb8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@9ec531, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@40147317, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@210f0cc1, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@19542407, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6f95cd51, org.springframework.test.context.transaction.TransactionalTestExecutionListener@c7a977f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@55caeb35, org.springframework.test.context.event.EventPublishingTestExecutionListener@6d868997, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2c383e33, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@74a195a4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@76304b46, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2fa3be26, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4287d447, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3af37506]
+20:16:23.703 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@4e6d7365 testClass = MainControllerTest.BuyPhoneCardTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7c0da600 testClass = MainControllerTest.BuyPhoneCardTest, locations = '{}', classes = '{class pl.kul.Main}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@7d3430a7, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3fc9dfc5, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@7adf16aa, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@73c60324, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@505a66e4, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@18245eb0, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@4f4c4b1a], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; false]], class annotated with @DirtiesContext [false] with mode [null].
+20:16:23.785 [Test worker] DEBUG org.springframework.boot.ApplicationServletEnvironment - Activating profiles []
+20:16:23.786 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.1)
+
+2022-06-07 20:16:24.123  INFO 3156 --- [    Test worker] pl.kul.MainControllerTest                : Starting MainControllerTest using Java 11.0.12 on DELL-PAWEL with PID 3156 (started by lrpa in D:\studia\pawel\8semestr\LabSpec\finalproject_pp_fp\backend)
+2022-06-07 20:16:24.125  INFO 3156 --- [    Test worker] pl.kul.MainControllerTest                : No active profile set, falling back to default profiles: default
+2022-06-07 20:16:24.651  INFO 3156 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-06-07 20:16:24.718  INFO 3156 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 2 MongoDB repository interfaces.
+2022-06-07 20:16:25.809  INFO 3156 --- [    Test worker] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'org.axonframework.springboot.autoconfig.EventProcessingAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-06-07 20:16:26.609  INFO 3156 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean '(inner bean)#5d9618f2#32' of type [org.axonframework.spring.config.annotation.SpringContextParameterResolverFactoryBuilder$ClasspathParameterResolverFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-07 20:16:26.610  INFO 3156 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean '(inner bean)#5d9618f2#32' of type [org.axonframework.messaging.annotation.MultiParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-07 20:16:26.615  INFO 3156 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean '(inner bean)#25791d40#32' of type [org.axonframework.spring.config.annotation.SpringBeanDependencyResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-07 20:16:26.619  INFO 3156 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean '(inner bean)#4407b042' of type [org.axonframework.spring.config.annotation.SpringBeanParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-07 20:16:26.657  INFO 3156 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean '__axon-parameter-resolver-factory' of type [org.axonframework.spring.config.ApplicationContextLookupParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-07 20:16:26.659  INFO 3156 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean '__axon-parameter-resolver-factory' of type [org.axonframework.messaging.annotation.MultiParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-07 20:16:26.673  INFO 3156 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean '(inner bean)#1e4d8770' of type [org.axonframework.spring.config.annotation.SpringHandlerDefinitionBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-07 20:16:26.674  INFO 3156 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean '(inner bean)#1e4d8770' of type [org.axonframework.messaging.annotation.MultiHandlerDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-07 20:16:26.679  INFO 3156 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean '(inner bean)#ba0018e' of type [org.axonframework.spring.config.annotation.SpringHandlerEnhancerDefinitionBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-07 20:16:26.679  INFO 3156 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean '(inner bean)#ba0018e' of type [org.axonframework.messaging.annotation.MultiHandlerEnhancerDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-07 20:16:26.683  INFO 3156 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean '__axon-handler-definition' of type [org.axonframework.messaging.annotation.MultiHandlerDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-07 20:16:27.077  INFO 3156 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-06-07 20:16:27.096  INFO 3156 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-07 20:16:27.097  INFO 3156 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-06-07 20:16:27.244  INFO 3156 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-07 20:16:27.244  INFO 3156 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3088 ms
+2022-06-07 20:16:27.573  INFO 3156 --- [    Test worker] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[0.0.0.0:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-06-07 20:16:27.808  WARN 3156 --- [    Test worker] o.s.data.convert.CustomConversions       : Registering converter from class pl.kul.DateTimeAdapter to class java.time.LocalDateTime as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-06-07 20:16:27.835  INFO 3156 --- [}-0.0.0.0:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:18}] to 0.0.0.0:27017
+2022-06-07 20:16:27.835  INFO 3156 --- [}-0.0.0.0:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:19}] to 0.0.0.0:27017
+2022-06-07 20:16:27.837  INFO 3156 --- [}-0.0.0.0:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=0.0.0.0:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=183085700}
+2022-06-07 20:16:29.013  INFO 3156 --- [    Test worker] o.a.s.a.XStreamAutoConfiguration         : Initializing an XStream instance since none was found. The auto configuration base packages will be used as wildcards for the XStream security settings.
+2022-06-07 20:16:29.200  INFO 3156 --- [    Test worker] o.a.s.util.XStreamSecurityTypeUtility    : Constructing wildcard type for base package [pl.kul].
+2022-06-07 20:16:29.210  INFO 3156 --- [    Test worker] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.Dom4JToByteArrayConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+2022-06-07 20:16:29.211  INFO 3156 --- [    Test worker] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToDom4jConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+2022-06-07 20:16:29.212  INFO 3156 --- [    Test worker] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2022-06-07 20:16:29.213  INFO 3156 --- [    Test worker] o.a.serialization.ChainingConverter      : ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/ParsingException
+2022-06-07 20:16:29.912  INFO 3156 --- [    Test worker] i.a.a.c.impl.AxonServerManagedChannel    : Requesting connection details from localhost:8124
+2022-06-07 20:16:30.858  INFO 3156 --- [    Test worker] i.a.a.c.impl.AxonServerManagedChannel    : Successfully connected to localhost:8124
+2022-06-07 20:16:30.871  INFO 3156 --- [    Test worker] i.a.a.connector.impl.ControlChannelImpl  : Connected instruction stream for context 'default'. Sending client identification
+2022-06-07 20:16:30.898  INFO 3156 --- [    Test worker] i.a.a.c.query.impl.QueryChannelImpl      : QueryChannel for context 'default' connected, 0 registrations resubscribed
+2022-06-07 20:16:30.916  INFO 3156 --- [    Test worker] i.a.a.c.query.impl.QueryChannelImpl      : Registered handler for query 'pl.kul.GetAllPhoneNumbersQuery : java.util.List&lt;java.lang.String&gt;' in context 'default'
+2022-06-07 20:16:30.919  INFO 3156 --- [    Test worker] i.a.a.c.query.impl.QueryChannelImpl      : Registered handler for query 'pl.kul.GetAccountBalanceQuery : pl.kul.Money' in context 'default'
+2022-06-07 20:16:30.921  INFO 3156 --- [    Test worker] i.a.a.c.query.impl.QueryChannelImpl      : Registered handler for query 'pl.kul.GetBillingQuery : java.util.List&lt;pl.kul.billing.BillingEntry&gt;' in context 'default'
+2022-06-07 20:16:30.997  INFO 3156 --- [    Test worker] i.a.a.c.command.impl.CommandChannelImpl  : CommandChannel for context 'default' connected, 0 command handlers registered
+2022-06-07 20:16:31.002  INFO 3156 --- [    Test worker] i.a.a.c.command.impl.CommandChannelImpl  : Registered handler for command 'pl.kul.MakePhoneCallCommand' in context 'default'
+2022-06-07 20:16:31.008  INFO 3156 --- [    Test worker] i.a.a.c.command.impl.CommandChannelImpl  : Registered handler for command 'pl.kul.TopUpCardCommand' in context 'default'
+2022-06-07 20:16:31.009  INFO 3156 --- [    Test worker] i.a.a.c.command.impl.CommandChannelImpl  : Registered handler for command 'pl.kul.BuyCardCommand' in context 'default'
+2022-06-07 20:16:31.013  INFO 3156 --- [    Test worker] i.a.a.c.command.impl.CommandChannelImpl  : Registered handler for command 'pl.kul.SendSmsCommand' in context 'default'
+2022-06-07 20:16:31.054  INFO 3156 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 62341 (http) with context path ''
+2022-06-07 20:16:31.065  INFO 3156 --- [countBalance]-0] o.a.e.TrackingEventProcessor             : Worker assigned to segment Segment[0/0] for processing
+2022-06-07 20:16:31.068  INFO 3156 --- [countBalance]-0] o.a.e.TrackingEventProcessor             : Using current Thread for last segment worker: TrackingSegmentWorker{processor=pl.kul.accountBalance, segment=Segment[0/0]}
+2022-06-07 20:16:31.069  INFO 3156 --- [countBalance]-0] o.a.e.TrackingEventProcessor             : Fetched token: null for segment: Segment[0/0]
+2022-06-07 20:16:31.070  INFO 3156 --- [    Test worker] pl.kul.MainControllerTest                : Started MainControllerTest in 7.279 seconds (JVM running for 9.262)
+2022-06-07 20:16:31.089  INFO 3156 --- [.kul.billing]-0] o.a.e.TrackingEventProcessor             : Worker assigned to segment Segment[0/0] for processing
+2022-06-07 20:16:31.089  INFO 3156 --- [.kul.billing]-0] o.a.e.TrackingEventProcessor             : Using current Thread for last segment worker: TrackingSegmentWorker{processor=pl.kul.billing, segment=Segment[0/0]}
+2022-06-07 20:16:31.090  INFO 3156 --- [.kul.billing]-0] o.a.e.TrackingEventProcessor             : Fetched token: null for segment: Segment[0/0]
+2022-06-07 20:16:31.137  INFO 3156 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2022-06-07 20:16:31.137  INFO 3156 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-07 20:16:31.138  INFO 3156 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2022-06-07 20:16:31.325  INFO 3156 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2022-06-07 20:16:31.325  INFO 3156 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-07 20:16:31.326  INFO 3156 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2022-06-07 20:16:31.368  INFO 3156 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2022-06-07 20:16:31.368  INFO 3156 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-07 20:16:31.369  INFO 3156 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2022-06-07 20:16:31.377  INFO 3156 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2022-06-07 20:16:31.377  INFO 3156 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-07 20:16:31.378  INFO 3156 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2022-06-07 20:16:31.386  INFO 3156 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2022-06-07 20:16:31.386  INFO 3156 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-07 20:16:31.387  INFO 3156 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.4</a> at 7 cze 2022, 20:16:34</p>
+</div>
+</div>
+</body>
+</html>
