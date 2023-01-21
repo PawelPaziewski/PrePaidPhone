@@ -1,0 +1,42 @@
+.navBar{
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 10px);
+    width: 15%;
+    position: absolute;
+    background-color: black;
+    border: solid 5px #282c34;
+    z-index: 9999;
+    border-top: none;
+}
+
+.navBar > li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    border: solid 1px #282c34;
+    color: white;
+    font-size: 20px;
+}
+.navBar > li:last-child{
+    border-bottom: solid 5px #282c34;
+
+}
+
+.navBar > li .link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.navBar > li:hover{
+    background-color: #323232;
+    cursor: pointer;
+}
