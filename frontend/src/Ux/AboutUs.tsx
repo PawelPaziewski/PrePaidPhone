@@ -7,6 +7,8 @@ export class AboutUs extends Component<any, any> {
         this.state = {
             isClicked: false
         }
+
+        this.changeState = this.changeState.bind(this);
     }
 
     private changeState(){
@@ -20,7 +22,7 @@ export class AboutUs extends Component<any, any> {
                     <div className={`modal-inside`}>
                         <h2>Paweł Paziewski-Kopczewski</h2>
                         <h2>Filip Pawłowicz</h2>
-                        <button onClick={() => this.changeState()}>DZIĘKUJEMY</button>
+                        <button onClick={this.changeState}>DZIĘKUJEMY</button>
                     </div>
                 </div>
                 {this.state.isClicked ?
